@@ -12,5 +12,5 @@ else
   input_file=$1
   output_file_prefix=${input_file%%.*}
 
-  split -b 99M $input_file $output_file_prefix;
+  split -b 99m $input_file $output_file_prefix;
 fi
